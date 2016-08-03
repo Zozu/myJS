@@ -20,6 +20,6 @@ var Singleton = (function(){
 	};
 
 	return {
-		one: one()
+		one: one
 	};
 })();
