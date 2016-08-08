@@ -1,4 +1,4 @@
-//Object.assign from ES6. 
+//Object.assign is from ES6. 
 function Dispatcher() {
     this.handlers = {};
 }
