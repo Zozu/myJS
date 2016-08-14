@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Zozu/myJS#readme",
   "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
     "wolfy87-eventemitter": "^5.1.0"
   }
 }
