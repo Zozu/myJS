@@ -6,7 +6,9 @@ let describe = require('mocha').describe,
 	//binarySearch
 	binarySearch = require('./searches/binary-search.js').search,
 	//bubbleSort
-	bubbleSort = require('./sortings/bubble-sort.js').sort;
+	bubbleSort = require('./sortings/bubble-sort.js').sort,
+	//selectingSort
+	selectingSort = require('./sortings/selecting-sort.js').sort;
 
 /*bucketSort([10,11,20])
 	.then(res => {console.log(res)})
@@ -20,4 +22,6 @@ console.log('binarySearch');
 console.log(binarySearch(arr, value));
 console.log('bubbleSort');
 console.log(bubbleSort(unsortedArr));
+console.log('selectingSort');
+console.log(selectingSort(unsortedArr));
 

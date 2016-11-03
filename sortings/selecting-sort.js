@@ -29,11 +29,3 @@ function sort(arr) {
 module.exports = {
 	sort: sort
 }
-
-
-/**
- * Test
- */
-
-let myArr = [3,4,5,133,621,2,7,10,2];
-console.log(sort(myArr));
