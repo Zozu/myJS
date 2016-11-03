@@ -26,6 +26,10 @@ function sort(arr) {
 	return arr;
 }
 
+module.exports = {
+	sort: sort
+}
+
 
 /**
  * Test

@@ -35,6 +35,10 @@ function sort(arr) {
 	return sortMax(0, arr.length - 1, arr);
 }
 
+module.exports = {
+	sort: sort
+}
+
 /**
  * Test
  */
