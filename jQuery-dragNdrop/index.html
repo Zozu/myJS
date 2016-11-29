@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<div class="canvas"></div> <br>
+	<button onclick="init()">Init</button>
+	<button onclick="destroy()">Destroy</button> <br>
+	<button onclick="enable()">Enable</button>
+	<button onclick="disable()">Disable</button>
+	<script src="./jquery-3.1.1.min.js"></script>
+	<script src="./draggable.js"></script>
+	<script>
+		function init() {
+			$('.canvas').draggable();
+		}
+
+		function enable() {
+			$('.canvas').draggable('enable');
+		}
+
+		function disable() {
+			$('.canvas').draggable('disable');
+		}
+
+		function destroy() {
+			$('.canvas').draggable('destroy');
+		}
+	</script>
+</body>
+</html>
